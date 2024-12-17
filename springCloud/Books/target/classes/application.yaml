@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+spring:
+  jpa:
+    generate-ddl: false
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+  application:
+    name: books
